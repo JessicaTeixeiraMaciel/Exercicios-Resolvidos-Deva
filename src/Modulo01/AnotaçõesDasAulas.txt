@@ -1,0 +1,10 @@
+Anotações das Aulas
+
+1) Entrar em uma pasta através do terminal:
+cd NomeDaPasta
+
+2) Abreviação System.out.println("Hello world!"):
+sout
+
+3) Imprimir erro com a letra vermelha:
+System.err.print();
