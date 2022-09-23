@@ -1,4 +1,4 @@
-package Modulo01.Aula01;
+package Modulo01.P01_HelloWorld;
 
 public class HelloWorld {
 
