@@ -5,8 +5,8 @@ public class FuelCalculation {
     public static void main(String[] args) {
         String departurePlace = "SALVADOR";
         String arrivalPlace = "SÃO PAULO";
-        double travelHours = 27;
-        double averageSpeed = 72.59;
+        double travelHours = 27d;
+        double averageSpeed = 72.59d;
 
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------\n" +
                 "                                                BEM VINDO(A) A CALCULADORA DE COMBUSTÍVEL!\n" +

@@ -5,7 +5,7 @@ public class MultiplicationTable {
     public static void main(String[] args) {
         int n = 7;
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------\n" +
-                "                                                   BEM VINDO(A) TÁBUADA DE MULTIPLICAÇÃO!\n" +
+                "                                                 BEM VINDO(A) A TABUADA DE MULTIPLICAÇÃO!\n" +
                 "-------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("Olá! Neste programa vamos informar a tábuada de multiplicação de um número inteiro entre 1 e 10.\n");
         System.out.printf("O usuário informou o seguinte número: %d.\n",n);
@@ -23,7 +23,7 @@ public class MultiplicationTable {
         System.out.printf(n + " x 9 = %d\n",n * 9);
         System.out.printf(n + " x 10 = %d\n",n * 10);
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------" +
-                "\n                                           OBRIGADA POR USAR A TÁBUADA DE MULTIPLICAÇÃO! :)\n" +
+                "\n                                           OBRIGADA POR USAR A TABUADA DE MULTIPLICAÇÃO! :)\n" +
                 "-------------------------------------------------------------------------------------------------------------------------------------");
     }
 
