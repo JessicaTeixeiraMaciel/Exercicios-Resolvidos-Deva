@@ -8,3 +8,5 @@ sout
 
 3) Imprimir erro com a letra vermelha:
 System.err.print();
+
+4) Equals é para String e == para número;
