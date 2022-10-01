@@ -4,5 +4,6 @@ public class Data {
 
     public static String player1, player2;
     public static String a,b,c,d,e,f,g,h,i;
+    public static String player;
 
 }

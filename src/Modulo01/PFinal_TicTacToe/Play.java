@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Play {
 
     public static void play() {
-        String player = Data.player1;
+        Data.player = Data.player1;
         String simbol = " X ";
         Scanner sc = new Scanner(System.in);
 
@@ -18,9 +18,11 @@ public class Play {
         Data.h = "(8)";
         Data.i = "(9)";
 
-        while (Finish.finish()) {
+        int i = 1;
 
-            System.out.printf("\n%s, é a vez do%sjogar! Escolha uma posição livre:",player,simbol);
+        while ((!CheckWinner.checkWinner()) && i<=9) {
+
+            System.out.printf("\n%s, é a vez do%sjogar! Escolha uma posição livre:",Data.player,simbol);
 
             Board.board();
 
@@ -53,18 +55,22 @@ public class Play {
                 Data.i = simbol;
             }
 
-            if (player.equals(Data.player1)) {
-                player = Data.player2;
+            if (Data.player.equals(Data.player1)) {
+                Data.player = Data.player2;
             } else {
-                player = Data.player1;
+                Data.player = Data.player1;
             }
 
-            if (player.equals(Data.player1)) {
+            if (Data.player.equals(Data.player1)) {
                 simbol = " X ";
             } else {
                 simbol = " O ";
             }
-
+            i++;
         }
+
+       if (i == 10) {
+           TieMessage.tieMessage();
+       }
     }
 }
